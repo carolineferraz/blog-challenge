@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --backgroundColor_darkMode: #111111;
+    --accentColor1_darkMode: #FCFCFC;
+    --accentColor2_darkMode: #686868;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--backgroundColor_darkMode);
+    font-family: 'Segoe UI', sans serif;
+}
+
+body {
+    padding: 4vw;
+}
+

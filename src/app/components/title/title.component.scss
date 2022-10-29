@@ -1,0 +1,22 @@
+.title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    h1 {
+        color: var(--accentColor1_darkMode);
+        text-align: center;
+        font-size: 19vw;
+    }
+}
+
+hr {
+    border: solid 1px var(--accentColor2_darkMode);
+    opacity: 50%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
