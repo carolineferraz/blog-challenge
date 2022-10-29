@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    color: var(--accentColor2_darkMode);
+
+    .image {
+        margin-right: 2vw;
+
+        img {
+            height: 150px;
+        }
+    }
+
+    .date-title {
+        .date {
+            span {
+                color: var(--accentColor3_darkMode);
+            }
+
+            margin-bottom: 1vw;
+        }
+
+        .title {
+            a {
+                color: var(--accentColor2_darkMode);
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 1.4rem;
+            }
+            a:hover {
+                color: var(--accentColor1_darkMode);
+                transition-duration: 400ms;
+            }
+        }
+    }
+}
+
+hr {
+    border: solid 1px var(--accentColor3_darkMode);
+    opacity: 50%;
+    margin: 2vw 0;
+}

@@ -1,0 +1,39 @@
+.container {
+    color: var(--accentColor2_darkMode);
+
+    .image {
+        img {
+            width: 100%;
+        }
+
+        margin-bottom: 1vw;
+    }
+
+    .date {
+        margin-bottom: 1vw;
+        span {
+            color: var(--accentColor3_darkMode);
+        }
+    }
+
+    .title {
+        a {
+            font-size: 2rem;
+            text-decoration: none;
+            font-weight: 700;
+            color: var(--accentColor2_darkMode);
+        }
+        a:hover {
+            color: var(--accentColor1_darkMode);
+            transition-duration: 400ms;
+        }
+
+        margin-bottom: 1vw;
+    }
+
+    .description {
+        p {
+            line-height: 1.4rem;
+        }
+    }
+}
