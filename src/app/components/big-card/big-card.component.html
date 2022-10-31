@@ -1,16 +1,16 @@
 <div class="container">
     <div class="image">
-        <a href="#"><img src="../../../assets/img/image-default.png" alt="Post Image"></a>
+        <a [routerLink]="['/content', Id]"><img src="{{ image }}" alt="Post Image"></a>
     </div>
     <div class="date">
         <span>December, 16, 2022</span>
     </div>
     <div class="title">
-        <a href="#">Saiu a nova versão Angular</a>
+        <a [routerLink]="['/content', Id]">{{ title }}</a>
     </div>
     <div class="description">
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt et maiores accusantium iste expedita. Hic ducimus nemo nostrum repellendus voluptas in illo ab repellat eos.
+            {{ description }}
         </p>
     </div>
 </div>

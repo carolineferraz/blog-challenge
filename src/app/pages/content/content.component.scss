@@ -1,0 +1,25 @@
+.container {
+    .title {
+        display: flex;
+        justify-content: center;
+        margin: 3vw;
+        h1 {
+            color: var(--accentColor2_darkMode);
+        }
+    }
+
+    .content {
+        p {
+            color: var(--accentColor2_darkMode);
+            text-align: justify;
+            text-indent: 4rem;
+        }
+
+        img {
+            width: 40vw;
+            float: right;
+            margin: 0 0 1vw 1.5vw;
+        }
+    }
+
+}
